@@ -1,0 +1,79 @@
+.bgimg{
+    background-image: url(lal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+}
+.headerset{
+    padding: 310px;
+    box-sizing: border-box;
+    color: rgb(165, 126, 42);
+}
+.headerset h1{
+font-size: 30px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: crimson;
+transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 24px;
+    padding: 4px;
+    margin-bottom: 50px;
+    color: crimson;
+}
+.headerset h1:hover{
+    font-size: 44px;
+    
+    }
+    .headerset h6:hover{
+      font-size:28;  
+    }
+    @media only  screen and (max-width: 800px){
+        .headerset h1{
+font-weight:bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+transition: 0.7s ease;}
+    }
+    .photos{
+        color: red;
+    }
+    .navbar-nav li a{
+transition: 0.7s ease;
+margin: 15px;
+    }
+    .navbar-nav li a :hover{
+        background-color: black;
+            }
+            section{
+                padding: 20px;
+                margin: 20px;
+            }
+            .card-group{
+                margin: 25px;
+                transition: 0.7s ease;
+            }
+            .card{
+                margin-bottom: 100px;
+            }
+            .card{
+                margin: 25px;
+                
+            }
+            .card :hover{
+                opacity: 0.3;
+                
+            }.pagination{
+                margin-top: 300px;
+                margin-left: 600px;
+            }
+            .dropdown{
+                margin-top: 20px;
+                margin-right: 100px;
+            }
+            .form-inline{
+                margin-left: 220px;
+                text-emphasis-color: black;
+                margin-top: 50px;
+            }
